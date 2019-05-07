@@ -1,0 +1,86 @@
+.hwr-demo h3 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 6rem;
+    height: 6rem;
+}
+.hwr-demo .outline {
+    border: 1px solid #eaecf1;
+    border-radius: 5px;
+    padding: 0.9rem;
+}
+.hwr-demo .outline:hover {
+    box-shadow: 0 0 20px #eee;
+}
+
+.hwr-demo .outline .upside {
+    height: 200px;
+    background-color: #f7f6fb;
+    padding: 20px 10px;
+    border: 1px solid #eaecf1;
+}
+
+.hwr-demo .outline .hwr-bar {
+    height: 50px;
+    font-size: 22px;
+    background-color: #f7f6fb;
+    padding: 5px;
+    border: 1px solid #eaecf1;
+}
+
+.hwr-bar .result-select {
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.hwr-demo .outline .downside {
+    height: 200px;
+    background-color: #DCDCDC;
+    padding: 20px 10px;
+    border: 1px solid #eaecf1;
+}
+
+.hwr-demo .outline .downside-right {
+    text-align: center;
+}
+
+.hwr-demo .outline select {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    text-indent: 2em;
+    margin-top: 10px;
+}
+
+.hwr-demo .outline .button {
+    display: inline-block;
+    padding: 0 10px;
+    /*width: 50%;*/
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.hwr-demo .outline .active {
+    background-color: #0090ff;
+    color: #fff;
+}
+
+.hwr-demo .outline .disable {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+    color: #fff;
+}
+
+.hwr-demo .outline .active.disable {
+    background-color: #7bc3fb;
+    cursor: not-allowed;
+    color: #fff;
+}
+#canvas2{
+    display: none;
+    width: 28px;
+    height: 28px;
+}

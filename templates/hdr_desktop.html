@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>手写数字识别</title>
+    <link rel="stylesheet" href="{{static_url('css/bootstrap.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{static_url('css/base.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{static_url('css/style.css')}}" type="text/css">
+    <script type="text/javascript" src="{{static_url('js/jquery-1.9.1.min.js')}}"></script>
+    <link rel="icon" href="{{static_url('images/favicon.ico')}}" sizes="32x32"/>
+</head>
+
+<body>
+    <div class="hidden-xs hwr-demo" id="ability-experience">
+    <div class="container">
+    <div class="row"><h3>手写数字识别</h3></div>
+    <div class="row">
+    <div class="outline clearfix">
+    <div class="upside" id="hwr-content"></div>
+    <div class="hwr-bar" id="hwr-tip"></div>
+    <div style="margin-top: 20px;">
+    <canvas class="col-sm-10 downside" id="sign" width="900" height="200"></canvas>
+    <div class="col-sm-2 downside-right">
+    <select name="language">
+    <option value="Digit" _align="left" _model="line,overlap">数字</option>
+    <option value="Chinese" _align="left" _model="line,overlap">中文</option>
+    <option value="English" _align="left" _model="line,overlap">英文</option>
+    </select><select name="color">
+    <option value="blue">蓝色</option>
+    <option value="red">红色</option>
+    </select>
+    <div style="display:inline-block; border:1px solid #eaecf1; width:100% ;margin-top:10px; text-align:left;" id="hwr-demo-writing">
+    <span class="col-sm-6 button active" _model="line" data-track="手写识别体验-点击-行写">行写</span>
+    <span class="col-sm-6 button" _model="overlap" data-track="手写识别体验-点击-叠写">叠写</span>
+    </div>
+    <div style="margin-top:5px; display: inline-block; width:100%;">
+    <span class="button" style="width:100%; border:1px solid #eaecf1;" id="clear-content" data-track="手写识别体验-点击-清空">清空</span>
+    </div></div></div></div></div></div></div>
+    <canvas id="canvas2"></canvas>
+
+    <script type="text/javascript" src="{{static_url('js/canvasSignature.js')}}"></script>
+    <script type="text/javascript" src="{{static_url('js/hdr-desktop.js')}}"></script>
+</body>
+</html>
