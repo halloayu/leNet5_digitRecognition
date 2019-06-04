@@ -9,7 +9,12 @@
 
 
 ## 预览图
-
+手机端手写"1"的识别结果: <br>
+![image](https://github.com/zy1998/hdrPro/blob/master/static/images/手机识别1.png) <br>
+手机端手写"3"的识别结果: <br>
+![image](https://github.com/zy1998/hdrPro/blob/master/static/images/手机识别3.png) <br>
+手机端手写"6"的识别结果: <br>
+![image](https://github.com/zy1998/hdrPro/blob/master/static/images/手机识别6.png) 
 
 
 ## 作者与联系方式
