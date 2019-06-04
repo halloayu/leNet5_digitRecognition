@@ -9,9 +9,9 @@
 
 
 ## 预览图
-![image](https://github.com/zy1998/hdrPro/blob/master/static/images/手机识别1.JPG)
-![image](https://github.com/zy1998/hdrPro/blob/master/static/images/手机识别3.JPG)
-![image](https://github.com/zy1998/hdrPro/blob/master/static/images/手机识别6.JPG)
+![image](https://github.com/zy1998/hdrPro/blob/master/static/images/手机识别1.png) <br>
+![image](https://github.com/zy1998/hdrPro/blob/master/static/images/手机识别3.png) <br>
+![image](https://github.com/zy1998/hdrPro/blob/master/static/images/手机识别6.png) <br>
 
 
 ## 作者与联系方式
