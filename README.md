@@ -16,7 +16,3 @@
 手机端手写"6"的识别结果: <br>
 ![image](https://github.com/zy1998/hdrPro/blob/master/static/images/手机识别6.png) 
 
-
-## 作者与联系方式
-*Yu Zeng* <br>
-*2194877791@qq.com*
